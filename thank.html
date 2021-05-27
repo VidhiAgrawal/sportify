@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KKHW583');</script>
+  <!-- End Google Tag Manager -->
+    <title>Barebones Html Website</title>
+  </head>
+  <style>
+
+    body {
+        width: 940px;
+        font-size: 100%;
+        font-family: sans-serif;
+        color: #999;
+        background-color: #e8e8e8;
+        text-align: center;
+        margin: 0 auto;
+      }
+      
+      a {
+      outline: 0;
+      text-decoration: none;
+      }
+        a:hover {
+          color: #fff;
+        }
+      
+      header {
+        background: #454545;
+        height: 100px;
+      }
+        header h1 {
+          font-size: 30px;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #eee;
+          padding-top: 1em;
+          margin-bottom: 5px;
+        }
+        header p {
+          font-size: 17px;
+          color: #707070;
+        }
+      
+      nav {
+        height: 40px;
+        background-color: #bbb;
+      }
+      
+        ul {
+          padding-top: 10px;
+        }
+      
+        li {
+            display: inline-block;
+        }
+      
+      
+      nav a {
+        color: #333;
+        display: block;
+        width: 80px;
+      }
+      
+
+  </style> 
+ 
+  <body onload="myFunction()">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKHW583"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <h1>Thank You!</h1>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="electronics.html">Electronics</a></li>
+          <li><a href="sports.html">Sports</a></li>
+          <li><a href="clothes.html">Clothes</a></li>
+        </ul>
+    </nav> 
+    <h2>Amount Paid:</h2>
+    <h2 id="demo"></h2>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = Math.floor(Math.random() * 10000) + 1;
+}
+</script>
+    
+  </body>
+</html>
